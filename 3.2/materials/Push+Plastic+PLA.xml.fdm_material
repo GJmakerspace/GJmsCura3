@@ -5,14 +5,14 @@
       <brand>Push Plastic</brand>
       <material>PLA</material>
       <color>Generic</color>
-      <label>Push Plastic 1.75</label>
+      <label>Generic 1.75</label>
     </name>
-    <GUID>a675e989-b29d-47f2-a33a-c8534ee3d9fa</GUID>
     <description>General Use Material for PushPlastic used by GJms</description>
-    <version>1</version>
     <color_code>#000000</color_code>
     <definition>fdmprinter</definition>
     <adhesion_info>Print on bare glass. Use tape for cold build plates.</adhesion_info>
+    <GUID>a675e989-b29d-47f2-a33a-c8534ee3d9fa</GUID>
+    <version>1</version>
     <compatible>True</compatible>
   </metadata>
   <properties>
@@ -20,22 +20,19 @@
     <diameter>1.75</diameter>
   </properties>
   <settings>
-    <setting key="print cooling">100.0</setting>
-    <setting key="retraction amount">1.5</setting>
-    <setting key="heated bed temperature">60.0</setting>
-    <setting key="print temperature">208.0</setting>
     <setting key="standby temperature">175</setting>
     <setting key="retraction speed">50.0</setting>
+    <setting key="heated bed temperature">60.0</setting>
+    <setting key="print cooling">100.0</setting>
+    <setting key="print temperature">208.0</setting>
+    <setting key="retraction amount">1.5</setting>
     <machine>
       <machine_identifier manufacturer="Cartesio bv" product="cartesio" />
-      <setting key="print cooling">40.0</setting>
-      <setting key="heated bed temperature">50</setting>
-      <setting key="print temperature">185</setting>
       <setting key="standby temperature">160</setting>
       <setting key="retraction speed">40</setting>
-      <hotend id="0.8 mm">
-        <setting key="hardware compatible">yes</setting>
-      </hotend>
+      <setting key="heated bed temperature">50</setting>
+      <setting key="print cooling">40.0</setting>
+      <setting key="print temperature">185</setting>
       <hotend id="0.4 mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">1.0</setting>
@@ -43,6 +40,9 @@
       <hotend id="0.25 mm">
         <setting key="hardware compatible">yes</setting>
         <setting key="retraction amount">1.0</setting>
+      </hotend>
+      <hotend id="0.8 mm">
+        <setting key="hardware compatible">yes</setting>
       </hotend>
     </machine>
     <machine>
